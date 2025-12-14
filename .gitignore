@@ -1,0 +1,6 @@
+LibriSpeech/
+*.flac
+*.wav
+*.tar.gz
+.ipynb_checkpoints/
+__pycache__/
