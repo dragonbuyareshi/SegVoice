@@ -1,0 +1,10 @@
+numpy
+pandas
+librosa
+soundfile
+pystoi
+mir_eval
+plotly
+tqdm
+scikit-learn
+audmetric
