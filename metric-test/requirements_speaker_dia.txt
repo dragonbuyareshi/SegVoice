@@ -1,0 +1,10 @@
+numpy
+librosa
+soundfile
+torchaudio
+tqdm
+scikit-learn
+matplotlib
+pyannote.audio
+pyannote.metrics
+pyannote.database
