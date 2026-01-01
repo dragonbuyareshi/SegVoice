@@ -200,7 +200,7 @@ export default function ResultsView({ results, isDark, audioBuffer }: ResultsVie
       {/* Performance Summary */}
       <div className={`p-6 rounded-2xl ${isDark ? 'bg-gray-800/50' : 'bg-white/50'} backdrop-blur-sm border ${isDark ? 'border-gray-700' : 'border-gray-200'}`}>
         <h4 className={`text-lg font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
-          ⚡ Processing Performance
+          Processing Performance
         </h4>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {results.speakers.length > 0 && (

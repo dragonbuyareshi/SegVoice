@@ -80,7 +80,7 @@ export default function WorkspacePage() {
       {error && (
         <div className="max-w-4xl mx-auto mb-8 relative z-10">
           <div className="p-4 rounded-xl bg-red-500/20 border border-red-500/50 text-red-300">
-            <p className="font-semibold">⚠️ {error}</p>
+            <p className="font-semibold">{error}</p>
           </div>
         </div>
       )}
@@ -146,7 +146,7 @@ export default function WorkspacePage() {
                     Supports: MP3, WAV, OGG, M4A, FLAC (Max 50MB)
                   </p>
                   <p className={`text-xs mt-4 ${isDark ? 'text-gray-600' : 'text-gray-400'}`}>
-                    🚀 Real-time AI processing with 7 advanced algorithms
+                    Real-time AI processing with 7 advanced algorithms
                   </p>
                 </label>
               </div>
